@@ -1,0 +1,59 @@
+.hero-img{
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url(./img/arkaplan.jpg);
+    height: 110vh;
+}
+.position-icon{
+    position: absolute;
+    top: 12px;
+    left: 5px;
+}
+.title{
+    font-size: 48px;
+    font-weight: bold;
+}
+.for-email{
+    height: 56px;
+    width: 400px;
+}
+.lbl{
+    top: 13px;
+    left: 10px;
+    color: #B8B8B8;
+}
+.lbl-active{
+    top: 6px;
+    left: 12px;
+    font-size: 13px;
+    transition:.5s;
+}
+.cizgi{
+    border: 4px solid;
+}
+.accordion-baslik{
+    cursor: pointer;
+}
+.accordion-icerik{
+    display: none;
+    overflow: hidden;
+    padding: 20px;
+}
+.carpi{
+    transform: rotate(45deg);
+}
+.boyut{
+    height: 32px;
+    width: 126px;
+}
+.position-icon2{
+    position: absolute;
+    top: 10px;
+    left: 16px;
+}
+@media (max-width:750px) {
+    .for-email{
+        width: 200px;
+    }
+    .title{
+        font-size: 36px;
+    }
+}
